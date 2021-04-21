@@ -12,5 +12,6 @@ namespace EntityVet
         public int PessoaID { get; set; }
         public string NomePet { get; set; }
         public string TipoPet { get; set; }
+
     }
 }
