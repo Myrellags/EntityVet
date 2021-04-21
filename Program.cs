@@ -24,7 +24,7 @@ namespace EntityVet
                 Console.WriteLine("Email:");
                 string email = Console.ReadLine();
 
-                Pessoa c1 = new Pessoa() { Nome = nome, Telefone = telefone, Endereco = endereco, Email = email };
+                Pessoa c1 = new Pessoa() { Nome = nome, Telefone = telefone, Endereco = endereco, NIF = nif, Email = email };
                 MinhaBD bd = new MinhaBD();
                 bd.Pessoas.Add(c1);
                 bd.SaveChanges();
